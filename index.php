@@ -28,7 +28,7 @@
 		<div class="overlay_home_picture">
 			<h3 class="section_heading"><span class="fitness_style">HEY THERE!!!</span></h3>
 			<p class="section_heading_text">I'm Opeyemi,I am a developer.</p>
-			<p class="section_heading_text">Work With Me Today!.</p>
+			<p class="section_heading_text">Work With Me Today.</p>
 			<div class="align_button">
 			<a href="contact_us.php"><button type="button" href="" class="get_started">Get In Touch</button></a>
 			</div>
