@@ -11,12 +11,12 @@
 </head>
 <body>
 <ul class="logo">
-	<li class="web_logo"><a href="index.php"><img class="web_image" src="images/logo6.png" ></a></li>
+	<li class="web_logo"><a href="homepage.php"><img class="web_image" src="images/logo6.png" ></a></li>
 </ul>
 <div class="nav_bar">
 	<ul class="nav_links">
-		<li class="nav_links_list"><a  href="index.php">Home</a></li>
-		<li class="nav_links_list"><a  href="about.php"><span class="active">About</span></a></li>
+		<li class="nav_links_list"><a  href="homepage.php">Home</a></li>
+		<li class="nav_links_list"><a  href="about_me.php"><span class="active">About</span></a></li>
 		<li class="nav_links_list"><a href="contact_us.php">Contact Us</a></li>
 
 	</ul>
