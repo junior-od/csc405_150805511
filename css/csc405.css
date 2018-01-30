@@ -1,10 +1,12 @@
+
+
 body{
 	overflow-x:hidden;
 }
 
 
 .nav_bar{
-	background: linear-gradient(-180deg,white,#39CCCC); 
+	background-color:black;
 	position: fixed;
 	top:0;
 	z-index: 50;
@@ -16,7 +18,9 @@ body{
 
 .logo{
 	position: fixed;
+	top:-15px;
 	z-index:100;
+	box-shadow: 3px 3px 3px 0 gray;
 
 }
 
@@ -26,19 +30,11 @@ body{
 }
 
 .web_image{
-	width:100px;
+	width:80px;
 	height:100px;
-	transition:all 0.5s;
 
 }
 
-.web_image:hover{
-	width:120px;
-	height:120px;
-	transition:all 0.5s;
-
-
-}
 
 .nav_links{
 	text-align: right;
@@ -51,21 +47,16 @@ body{
 
 .nav_links_list a{
 	color:white;
+	font-family: Georgia;
 	font-size: 30px;
 	text-decoration: none;
-	transition: all 0.5s;
 
 }
 
-.nav_links_list a:hover{
-	transition: all 0.5s;
-	font-size: 25px;
-}
 
 
 .active{
-    background-color: white;
-    color:#39cccc;
+    color:#004080;
     margin:20px;
     padding:15px;
 
@@ -73,19 +64,20 @@ body{
 
 .section_about{
 	position: absolute;
-	top:140px;
+	top:110px;
 	width:100%;
 	box-shadow: 5px 5px 5px 0 gray;
-	background-color: #e0e0d1
+	background-color:#004080;
 }
 
 .about{
-	color:#39cccc;
+	font-family: sans-serif;
+	color:white;
 	font-size: 40px;
 	text-align: center;
 }
 
-.about_p{
+.p{
 	font-size: 25px;
 	font-family: Lucida Console;
 }
@@ -105,7 +97,7 @@ body{
 }
 
 .get_in_touch{
-	color:#39cccc;
+	color:#004080;
 	font-size: 40px;
 }
 
@@ -119,7 +111,7 @@ body{
 
 .section1{
 	position: absolute;
-	top:80px;
+	top:60px;
 	width: 100%;
 	box-shadow: 15px 10px 10px 0px gray;
 }
@@ -154,8 +146,9 @@ body{
 
 
 .fitness_style{
-	color:#39cccc;
+	color:#004080;
 	font-size:70px;
+	font-family: Trebuchet;
 }
 
 .section_heading_text{
@@ -172,7 +165,7 @@ body{
 }
 
 .get_started{
-	background-color: #39cccc;
+	background-color: #004080;
 	color:white;
 	border-color:black;
 	cursor: pointer;
@@ -186,7 +179,7 @@ body{
 .get_started:hover{
 	background-color: white;
 	box-shadow: 5px 5px 5px 0px gray;
-	color:#39cccc;
+	color:#004080;
 	border-color:white;
 
 }
@@ -200,7 +193,7 @@ body{
 .my_services{
 	text-align: center;
 	font-size: 40px;
-	font-family: Lucida Console;
+	font-family: sans-serif;
 	box-shadow: 9px 9px 9px 0px gray;
 }
 
@@ -231,7 +224,7 @@ body{
 }
 
 .gamer_text{
-	background-color: #e0e0d1;
+	background-color: #004080;
 	position: absolute;
 	top:200px;
 	right:10px;
@@ -241,6 +234,9 @@ body{
 }
 
 .gamer{
+	line-height: 150px;
+	color:white;
+	font-family: sans-serif;
 	font-size: 30px;
 }
 
@@ -272,7 +268,7 @@ body{
 }
 
 .developer_text{
-	background-color: #e0e0d1;
+	background-color: #004080;
 	position: absolute;
 	top:100px;
 	right:10px;
@@ -283,14 +279,16 @@ body{
 }
 
 .developer{
+	line-height: 150px;
+	color:white;
 	font-size: 30px;
-	font-family:;
+	font-family:sans-serif;
 }
 
 .view_more{
-	background-color: #39cccc;
+	background-color: #004080;
 	color:white;
-	border-top-color:2px solid #39cccc;
+	border-top-color:2px solid #004080;
 	border-radius: 50px;
 	cursor: pointer;
 	width:30%;
@@ -303,14 +301,14 @@ body{
 .view_more:hover{
 	background-color: white;
 	box-shadow: 5px 5px 5px 0px gray;
-	color:#39cccc;
+	color:#004080;
 	border-color:white;
 
 }
 
 .section4{
 	position: absolute;
-	top:1750px;
+	top:1670px;
 	width:100%;
 }
 
@@ -318,8 +316,8 @@ body{
 
 .about_image{
 	border-radius: 50%;
-	width:50%;
-	height:500px;
+	width:20%;
+	height:200px;
 
 }
 
@@ -345,21 +343,22 @@ body{
 .foot{
 	
 	width:100%;
-	background: linear-gradient(-180deg,white,#39CCCC); 
+	background-color:black;
+	color:white;
 	padding:10px;
 	height:30px;
 }
 
 .footer1{
 	position: absolute;
-	top:1900px;
+	top:1780px;
 	width:100%;
 
 }
 
 .footer2{
 	position: absolute;
-	top:940px;
+	top:700px;
 	width:100%;
 
 }
@@ -377,10 +376,10 @@ body{
 
 .button{
 	cursor:pointer;
-	background-color: #39cccc;
+	background-color: #004080;
 	color:white;
 	width:300px;
-	border-color:#39cccc;
+	border-color:#004080;
 	border-radius:50px;
 	height:40px;
 	font-size: 20px;
@@ -390,11 +389,37 @@ body{
 
 .button:hover{
 	background-color: white;
-	color:#39CCCC;
+	color:#004080;
 	border-color:white;
-	box-shadow: 5px 5px 5px 0 #39cccc;
+	box-shadow: 5px 5px 5px 0 #004080;
 }
 
 .input_text{
 	width:30%;
+}
+
+.my_hobbies{
+	margin-top: -140px;
+	width: 200px;
+
+}
+
+.my_education{
+	text-align: right;
+	margin-top: -120px;
+	margin-left: -10px;
+	width: 100%;
+}
+
+.about_headings{
+	color:white;
+	font-family: sans-serif;
+	font-size: 25px;
+	
+}
+
+.about_par{
+	font-size: 17px;
+	color:white;
+
 }

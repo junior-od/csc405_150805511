@@ -35,6 +35,32 @@
 
 }
 
+@media (max-width: 960px){
+	.my_skills{
+		text-align: center;
+
+	}
+
+	.my_hobbies{
+		margin-top: 40px;
+		width: 100%;
+	}
+
+	.my_education{
+		text-align: center;
+		margin-top: 50px;
+		margin-left: -10px;
+		width: 100%;
+	}
+
+	.footer2{
+		position: absolute;
+		top:1000px;
+		width:100%;
+
+	}
+}
+
 
 
 
@@ -42,15 +68,15 @@
 @media (max-width:640px){
 	.logo{
 		position: fixed;
-		top:200px;
-		left:-20px;
+		top:100px;
+		
 	}
 	
 
 	.nav_bar{
-		background: linear-gradient(100deg,white,#39CCCC); 
+		background-color:black; 
 		padding:20px;
-		box-shadow: 10px 0px 20px 10px black;
+		
 
 	}
 	.nav_links_list{
@@ -128,6 +154,7 @@
 	}
 
 	.gamer{
+		line-height: 100px;
 		font-size: 20px;
 	}
 
@@ -144,6 +171,7 @@
 	}
 
 	.developer{
+		line-height: 100px;
 		font-size: 20px;
 	}
 	.developer_text{
@@ -155,14 +183,13 @@
 	}
 
 	.view_more{
-		background-color: #39cccc;
+		background-color: #004080;
 		color:white;
-		border-color:#39cccc;
+		border-color:#004080;
 		cursor: pointer;
 		width:60%;
 		height:20%;
 		font-size: 20px;
-
 		transition:all 0.5s;
 
 	}
@@ -170,7 +197,7 @@
 	.view_more:hover{
 		background-color: white;
 		box-shadow: 5px 5px 5px 0px gray;
-		color:#39cccc;
+		color:#004080;
 		border-color:white;
 
 	}
@@ -201,7 +228,7 @@
 	.foot{
 	
 		width:100%;
-		background: linear-gradient(-180deg,white,#39CCCC); 
+		
 		padding:10px;
 		height:40px;
 	}
@@ -214,7 +241,7 @@
 
 	.footer2{
 		position: absolute;
-		top:1050px;
+		top:1390px;
 		width:100%;
 
 	}
