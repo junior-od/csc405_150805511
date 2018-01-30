@@ -327,13 +327,13 @@ body{
 }
 
 .follow_link{
-
+    color:gray;
 	font-size: 20px;
 	transition:all 0.5s;
 }
 
 .follow_link:hover{
-	color:#39cccc;
+	color:#004080;
 	font-size: 23px;
 	transition:all 0.5s;
 
