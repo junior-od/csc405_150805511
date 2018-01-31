@@ -85,7 +85,8 @@ body{
 
 
 .contact{
-	background-color: #e0e0d1;
+	background:url("../images/contact.jpg");
+	background-size: 150%;
 	position: absolute;
 	top:140px;
 	width:100%;
@@ -395,7 +396,8 @@ body{
 }
 
 .input_text{
-	width:30%;
+	width:50%;
+	
 }
 
 .my_hobbies{

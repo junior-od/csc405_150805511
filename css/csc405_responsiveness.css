@@ -212,6 +212,10 @@
 		width:100%;
 	}
 
+	.contact{
+		background-size: 200%;
+	}
+
 	.contact_me{
 		position: absolute;
 		top:850px;
